@@ -93,7 +93,7 @@ const Contact = () => {
                 id="name"
                 type="text"
                 placeholder="Name"
-                className="rounded-[14px] border border-black py-[18px] px-[30]"
+                className="rounded-[14px] border border-black py-[18px] px-[30px]"
                 value={form.name}
                 onChange={(e) =>
                   setForm((prev) => ({ ...prev, name: e.target.value }))
@@ -108,7 +108,7 @@ const Contact = () => {
                 id="email"
                 type="text"
                 placeholder="Email"
-                className="rounded-[14px] border border-black py-[18px] px-[30]"
+                className="rounded-[14px] border border-black py-[18px] px-[30px]"
                 value={form.email}
                 onChange={(e) =>
                   setForm((prev) => ({ ...prev, email: e.target.value }))

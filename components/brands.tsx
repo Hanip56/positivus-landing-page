@@ -38,7 +38,7 @@ const Brands = () => {
             alt={alt}
             width={200}
             height={48}
-            className="w-32 md:w-52 grayscale"
+            className="w-24 md:w-52 grayscale"
           />
         </div>
       ))}

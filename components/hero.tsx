@@ -14,7 +14,7 @@ const Hero = () => {
       <Image
         src={"/images/hero-illustration.svg"}
         alt="hero illustration"
-        className="w-[27rem] xl:w-auto object-contain"
+        className="w-96 lg:w-[27rem] xl:w-auto object-contain"
         width={600}
         height={515}
       />

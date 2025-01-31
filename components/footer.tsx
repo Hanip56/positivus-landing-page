@@ -115,7 +115,7 @@ const Footer = () => {
               id="email"
               type="text"
               placeholder="Email"
-              className="w-full rounded-[14px] border bg-transparent placeholder:text-white border-white py-[18px] px-[30]"
+              className="w-full rounded-[14px] border bg-transparent placeholder:text-white border-white py-[18px] px-[30px]"
               value={form.email}
               onChange={(e) =>
                 setForm((prev) => ({ ...prev, email: e.target.value }))
