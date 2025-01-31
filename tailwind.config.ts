@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
   content: [
@@ -11,6 +12,23 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        black: {
+          DEFAULT: "#000",
+          100: "#191A23",
+        },
+        gray: {
+          10: "#f3f3f3",
+        },
+        main: "#B9FF66",
+      },
+      fontFamily: {
+        spaceGrotesk: [
+          "var(--font-space-grotesk)",
+          ...defaultTheme.fontFamily.sans,
+        ],
+      },
+      dropShadow: {
+        bold: "0 5px 0 #191A23",
       },
     },
   },
