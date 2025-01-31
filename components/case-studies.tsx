@@ -11,7 +11,7 @@ const CaseStudies = () => {
           through Our Case Studies
         </p>
       </header>
-      <main className="flex flex-col md:flex-row my-20 divide-y divide-x-0 md:divide-y-0 md:divide-x bg-black-100 p-[40px] sm:p-[60px] rounded-[45px] text-white">
+      <main className="flex flex-col md:flex-row my-10 md:my-20 divide-y divide-x-0 md:divide-y-0 md:divide-x bg-black-100 p-[30px] sm:p-[60px] rounded-[45px] text-white">
         <div className="pb-8 md:pb-0 md:pr-16 space-y-5">
           <p>
             For a local restaurant, we implemented a targeted PPC campaign that

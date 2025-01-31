@@ -64,8 +64,8 @@ const Navbar = () => {
             <Image
               src="/images/icon-menu.svg"
               alt="menu icon"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
             />
           </button>
         </div>

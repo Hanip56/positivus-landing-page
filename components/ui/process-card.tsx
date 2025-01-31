@@ -20,14 +20,14 @@ const ProcessCard = ({
   return (
     <div
       className={cn(
-        "p-[40px] sm:p-[60px] border border-black-100 drop-shadow-bold rounded-[45px]",
+        "p-6 md:p-10 sm:p-[60px] border border-black-100 drop-shadow-bold rounded-[45px]",
         isActive ? "bg-main" : "bg-gray-10"
       )}
     >
       {/* header */}
       <div className="flex items-center justify-between gap-2">
         <h3 className="flex items-center break-all">
-          <span className="text-4xl lg:text-5xl xl:text-6xl mr-[25px] flex-shrink-0">
+          <span className="text-4xl lg:text-5xl xl:text-6xl mr-4 md:mr-[25px] flex-shrink-0">
             {number}
           </span>{" "}
           {title}

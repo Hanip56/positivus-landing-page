@@ -42,7 +42,7 @@ const services = [
 
 export const Services = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 xl:px-0 mt-40">
+    <div className="max-w-screen-xl mx-auto px-4 xl:px-0 mt-28 md:mt-40">
       {/* header */}
       <header className="flex flex-col md:flex-row items-start md:items-center gap-10">
         <h2 className="inline-block bg-main font-medium p-3 rounded-lg">
@@ -53,7 +53,7 @@ export const Services = () => {
           businesses grow and succeed online. These services include:
         </p>
       </header>
-      <main className="grid grid-cols-1 md:grid-cols-2 gap-10 my-20">
+      <main className="grid grid-cols-1 md:grid-cols-2 gap-10 my-10 md:my-20">
         {services.map(({ line1, line2, src, variant }) => (
           <Card
             key={src}

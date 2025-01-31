@@ -66,7 +66,7 @@ const Card = ({ alt, line1, src, variant = "gray", line2 }: Props) => {
           </div>
           <div
             className={cn(
-              `text-xl`,
+              `text-base lg:text-lg xl:text-xl`,
               variant === "black" ? "text-white" : "text-black"
             )}
           >

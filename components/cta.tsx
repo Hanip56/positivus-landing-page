@@ -5,8 +5,8 @@ import Image from "next/image";
 const Cta = () => {
   return (
     <div className="max-w-screen-xl mx-auto px-4 xl:px-0 py-12">
-      <div className="bg-gray-10 p-[40px] sm:p-[60px] flex flex-col-reverse md:flex-row items-center md:[&>*]:flex-1 rounded-[45px]">
-        <div className="space-y-[26px]">
+      <div className="bg-gray-10 p-[30px] sm:p-[60px] flex flex-col-reverse md:flex-row items-center md:[&>*]:flex-1 rounded-[45px]">
+        <div className="space-y-[26px] flex flex-col items-center text-center md:items-start md:text-start">
           <h3>Let&apos;s make things happen</h3>
           <p>
             Contact us today to learn more about how our digital marketing

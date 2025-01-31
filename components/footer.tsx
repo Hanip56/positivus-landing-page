@@ -19,8 +19,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="max-w-screen-xl mx-auto p-[40px] sm:p-[60px] bg-black-100 mt-[60px] rounded-t-[45px] text-white">
-      <div className="max-w-screen-xl mx-auto px-4 xl:px-0 flex flex-col gap-4 md:flex-row items-center justify-between">
+    <div className="max-w-screen-xl mx-auto p-[30px] sm:p-[60px] bg-black-100 mt-[60px] rounded-t-[45px] text-white">
+      <div className="max-w-screen-xl mx-auto px-4 xl:px-0 flex flex-col gap-4 gap-y-8 md:flex-row items-center justify-between">
         <Image
           src="/images/logo-positivus-white.svg"
           alt="logo positivus"
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="bg-[#292A32] rounded-[14px] px-10 py-[58px] flex flex-col lg:flex-row items-center gap-5 w-full md:w-fit"
+          className="bg-[#292A32] rounded-[14px] px-6 py-6 sm:px-10 sm:py-[58px] flex flex-col lg:flex-row items-center gap-5 w-full md:w-fit"
         >
           <div className="flex flex-col gap-[5px] w-full lg:w-fit">
             <label htmlFor="email" className="text-base hidden">

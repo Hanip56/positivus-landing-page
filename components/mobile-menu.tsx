@@ -9,21 +9,21 @@ type Props = {
 
 const MobileMenu = ({ handleClose }: Props) => {
   return (
-    <div className="lg:hidden fixed top-0 left-0 inset-0 bg-black-100 z-50 p-10">
+    <div className="lg:hidden fixed top-0 left-0 inset-0 bg-black-100 z-50 p-8">
       <header className="flex justify-end">
         <button onClick={handleClose}>
           <Image
             src="/images/icon-cross.svg"
             alt="cross icon"
-            width={50}
-            height={50}
+            width={40}
+            height={40}
           />
         </button>
       </header>
 
-      <main className="flex flex-col items-center text-center gap-12 text-2xl sm:text-3xl text-white mt-12">
+      <main className="flex flex-col items-center text-center gap-12 text-xl sm:text-2xl text-white mt-6">
         {/* navigation */}
-        <ul className="flex flex-col gap-8 items-center [&>li>*]:px-2 [&>li>*]:py-1 ">
+        <ul className="flex flex-col gap-4 items-center [&>li>*]:px-2 [&>li>*]:py-1 ">
           <li>
             <Link href="#" className="hover:underline">
               About us
@@ -52,7 +52,7 @@ const MobileMenu = ({ handleClose }: Props) => {
         </ul>
         <Button
           variant="outline"
-          className="border-white text-white text-2xl sm:text-3xl"
+          className="border-white text-white text-lg sm:text-xl"
         >
           Request a quote
         </Button>

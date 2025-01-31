@@ -23,7 +23,7 @@ const Process = () => {
           Our working process
         </h2>
       </header>
-      <main className="flex flex-col gap-[30px] my-20">
+      <main className="flex flex-col gap-[30px] my-10 md:my-20">
         {processes.map((title, i) => (
           <ProcessCard
             key={title}

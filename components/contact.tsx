@@ -34,7 +34,7 @@ const Contact = () => {
           Connect with Us: Let&apos;s Discuss Your Digital Marketing Needs
         </p>
       </header>
-      <main className="bg-gray-10 p-[40px] sm:p-[60px] xl:px-[100px] rounded-[45px] my-20 relative overflow-hidden">
+      <main className="bg-gray-10 p-[30px] sm:p-[60px] xl:px-[100px] rounded-[45px] my-10 md:my-20 relative overflow-hidden">
         {/* bg */}
         <div className="absolute right-0 top-1/2 -translate-y-1/2">
           <Image
@@ -50,8 +50,8 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="relative z-10 space-y-10 max-w-[556px]"
         >
-          <div className="flex items-center gap-[35px]">
-            <label className="flex items-center gap-[14px] cursor-pointer">
+          <div className="flex items-center gap-6 xl:gap-[35px]">
+            <label className="flex items-center gap-2 xl:gap-[14px] cursor-pointer">
               <input
                 type="radio"
                 name="option"
@@ -67,7 +67,7 @@ const Contact = () => {
               </div>
               <span>Say Hi</span>
             </label>
-            <label className="flex items-center gap-[14px] cursor-pointer">
+            <label className="flex items-center gap-2 xl:gap-[14px] cursor-pointer">
               <input
                 type="radio"
                 name="option"
