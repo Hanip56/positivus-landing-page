@@ -123,7 +123,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 placeholder="Message"
-                className="rounded-[14px] border border-black py-[18px] px-[30] min-h-[190px]"
+                className="rounded-[14px] border border-black py-[18px] px-[30px] min-h-[190px]"
                 value={form.message}
                 onChange={(e) =>
                   setForm((prev) => ({ ...prev, message: e.target.value }))
